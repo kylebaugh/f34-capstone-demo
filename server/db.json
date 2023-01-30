@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1, 
+        "name": "Pretty Patties", 
+        "picture": "burger1.jpg", 
+        "votes": 0
+    }, 
+
+    {
+        "id": 2, 
+        "name": "El Diablo",
+        "picture": "burger2.jpg",
+        "votes": 0
+    }, 
+    {
+        "id": 3,
+        "name": "The Grand Slam Breakfast Burger",
+        "picture": "sad.jpg",
+        "votes": 0
+    }
+]
