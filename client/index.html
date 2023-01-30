@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <title>Baugh's Burgers</title>
 </head>
 <body>
     
+    <header>
+        <h1>Welcome to Baugh's Burgers!</h1>
+        <h3>Funny, fancy, fantastic. Burgers.</h3>
+    </header>
+
+    <main>
+        <h3>Best of Baugh's Burgers</h3>
+        <section id="burgerDisplay"></section>
+
+        <section id="suggestionBox">
+            <h3>Add a burger!</h3>
+            <input type="text" placeholder="Burger Name" id="burgerName">
+            <input type="text" placeholder="Burger Picture" id="burgerPicture">
+            <button id="addBurger">Submit!</button>
+        </section>
+        
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
