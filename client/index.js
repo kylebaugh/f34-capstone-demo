@@ -27,9 +27,6 @@ const createBurgerCard = (burger) => {
 
         <br/>
         <br/>
-        <br/>
-        <br/>
-
     `
 
     displayBurgers.appendChild(newBurgerCard)
